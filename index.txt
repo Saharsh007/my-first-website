@@ -1,0 +1,103 @@
+
+<html>
+<head>
+<link rel="shortcut icon" href="icon.ico">
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<title>Saharsh</title>
+
+<body >
+
+<h1  id="top1" style="text-align:center; font-size:=220%; font-family:Arizonia;"> <link href='https://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet' type='text/css'> ABOUT ME</h1>
+
+<img src="m.jpg" width="400" height="500" style=" float:right;   border-radius: 50%;" >
+
+
+<pre style="font-size:250%; font-family:Cookie; "> <link href='https://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+NAME-KUMAR SAHARSH
+
+COLLEGE-<a href="nitk.ac.in" styles="hover-color:white;" target="_blank">NITK</a>
+
+BRANCH-CSE
+
+ROLL-17CO121
+</pre>
+
+
+
+<pre style="font-family:Merienda One;"><link href='https://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
+I am a curious guy who is interest is exploring new things,
+searching for his ultimate interest(sounds confusing ikr).
+I have knowledge of CP,DSA,Web Dev, Android dev
+and also working on entrepreneurship and ML. 
+I like to play football and badminton and 
+I'm a good PC gamer too.
+I am the person who lives to eat.
+My dream to built a personal assistant 
+using Artificial Intelliengence 
+like JARVIS from Ironman .
+only as software not hardware.
+</pre>
+
+
+
+
+<br>
+<p style="font-size:150%; text-align:center; font-family:Leckerli One;"> <link href='https://fonts.googleapis.com/css?family=Leckerli+One' rel='stylesheet' type='text/css'>Langauges Known->Proficiency Percentage</p>
+<p style="color:black;"> <img src="graphs.jpg" width="1000" height="500" style="padding-left:100;"></p>
+
+<br><br>
+
+
+<p style="font-size:150%; text-align:center; color:red; font-family:Oleo Script; "> <link href='https://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'> Some of my skills</p>
+
+
+<p style="font-size:130%; text-align:center; color:white; font-family:Oleo Script;"> <link href='https://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'> TECHNICAL</p>
+<ul style="text-align:center;">
+<pre style="text-align:center; font-family:Cookie;"> <link href='https://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'> 
+Android Development(basic layouts,linking two layouts,array adapters).
+Web Development(websites such as this).
+Competitive Coding(know data structures and maths).
+Entrepreneurship(In Progress).
+</pre>
+</ul>
+
+<p style="font-size:130%; text-align:center; color:white; font-family:Oleo Script; "> <link href='https://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'> NON-TECHNICAL</p>
+<ul style="font-family:Cookie; text-align:center;  "> 
+<pre style="font-family:Cookie; "> <link href='https://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'> 
+Good Badminton and Football player
+Experinced PC Gamer
+</pre>
+</ul>
+
+
+<p style="font-size:150%; text-align:center; color:red; font-family:Oleo Script; "> <link href='https://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'> Active on these sites</p>
+<ul>
+<pre style="text-align:center; font-family:Cookie;"> <link href='https://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'> 
+<a href="https://www.hackerrank.com/saharshsonu40?hr_r=1" target="_blank" > Hackerrank </a>
+<a href="https://www.codechef.com/users/kumar_saharsh" target="_blank" > codechef </a> 
+<a href="https://codeforces.com/profile/saharshsonu40" target="_blank"  > codeforces </a>
+</pre>
+</ul>
+<br><br>
+
+<address style="color:yellow; font-size:150%;">
+<pre style="font-size:130%; color:white;"><i><b>Find me here:</b></i></pre> 
+Email: saharshsonu40@gmail.com
+<br>
+Whatsapp:8861116298
+<br>
+Room No:4th block 46 
+<P style="font-size:30;">Other links:
+<a href="https://www.facebook.com/saharsh.kumar.94" target="_blank">	<img src="fb.jpg" width="50" height="50" ></a>
+<a href="https://www.linkedin.com/in/kumar-saharsh-767829156/" target="_blank">	<img src="l.png" width="50" height="50" ></a>
+<a href="https://github.com/Saharsh007" target="_blank">	<img src="g.png" width="80" height="50" ></a>
+<a href="https://twitter.com/KumarSaharsh2" target="_blank">	<img src="t.jpg" width="50" height="50"></a>
+<a href="https://www.quora.com/profile/Saharsh-Kumar-1" target="_blank"  >	<img src="quora.jpg" width="50" height="50" style="border-radius:50%;"></a>
+<a href="#top1"> <img src="top.png" width="100" height="100" style="padding-left:490; border-radius:50%;"> </a>
+</P> 
+</address>
+
+</body>
+</html>
+
