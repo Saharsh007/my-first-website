@@ -1,0 +1,422 @@
+
+body
+{
+	background-image: url("../images/text_bg.png");
+	
+
+}
+div{
+	animation-name: normal11;
+	 animation-duration: 3s;
+}
+p
+{
+	color:yellow;
+	animation-name: normal11;
+	 animation-duration: 3s;
+}
+h1
+{
+	color:white;
+	animation-name: normal11;
+	 animation-duration: 3s;
+}
+pre
+{
+	color:yellow;
+	font-size:150%;
+	animation-name: normal11;
+	 animation-duration: 3s;
+}
+
+a:link
+{
+color:yellow;
+ text-decoration:none;
+ animation-name: normal11;
+	 animation-duration: 3s;
+
+}
+a:visited 
+{
+	color:white;
+	background-color:black;
+}
+a:hover
+{
+	color:blue;
+
+
+}
+
+#top1{
+		text-shadow:3px 2px 70px red;
+		text-align:center; 
+		font-family:Arizonia;
+		transition: transform 2s;
+		color:yellow;
+		animation-name: normal11;
+	 animation-duration: 3s;
+
+}
+#top1:hover{
+	transform: rotate(360deg);
+	text-shadow:3px 2px 70px rgb(55, 0, 252);
+}
+
+#normal1{
+
+	font-size: 250%;
+	text-shadow:2px 1px 40px white;
+	 font-family:Cookie;
+	 
+	 animation-name: normal111;
+	 animation-duration: 4s;
+	 animation-iteration-count: 1000;
+}
+@keyframes normal11{
+	0%   { color: rgb(0, 0, 0); }
+    25%  {color: rgba(0, 0, 0, 0.726); }
+    50%  {color:rgb(87, 78, 59); }
+    75%  {color:rgb(196, 178, 79); }
+    100% { }
+}
+@keyframes normal111{
+	0%   { text-shadow:3px 2px 70px rgb(255, 255, 255); }
+    25%  {text-shadow:3px 2px 70px rgb(255, 0, 0); }
+    50%  {text-shadow:3px 2px 70px rgb(43, 255, 0); }
+    75%  {text-shadow:3px 2px 70px rgb(0, 225, 255); }
+	90% { text-shadow:3px 2px 70px rgb(234, 0, 255);}
+	100%{text-shadow:3px 2px 70px rgb(255, 255, 255);}
+}
+
+#links:hover{
+	background-color:white;
+	border-radius:20%;
+}
+
+#about1{
+
+		font-variant: small-caps;
+		font-family:Caesar Dressing;
+		font-size: 170%;
+		text-shadow:2px 1px 40px white;
+		animation-name: normal111;
+		animation-duration: 4s;
+		animation-iteration-count: 1000;
+
+
+}
+#test{
+	margin: auto;
+	font-size:150%; text-align:center; 
+	max-width: 500px;
+	text-shadow:2px 1px 40px red;
+}
+#about1::first-letter{
+	color: #FFE000  ;
+	font-size:250%;
+}
+::selection{
+	color:white;
+	background:black	;
+}
+
+#head1{
+	font-family: Faster One;
+	font-size: 250%;
+	color:red;
+	text-shadow:2px 1px 60px rgb(255, 208, 0);
+}
+#findme{
+	font-family:Almendra SC;		
+	font-size:170%; 
+	color:red;
+	text-shadow:2px 1px 60px rgb(255, 217, 0);
+	animation-name: normal111;
+	animation-duration: 4s;
+	animation-iteration-count: 1000;
+}
+#address1{
+	color:yellow;
+	 font-size:200%;
+	 font-family: Amatic SC;
+	 text-shadow:2px 1px 60px rgb(255, 255, 255);
+	 animation-name: normal111;
+	 animation-duration: 4s;
+	 animation-iteration-count: 1000;
+}
+#titlesall{
+	
+	font-size:170%;
+	color:white;
+	font-family: Arbutus;
+	text-shadow:2px 1px 60px rgb(55, 0, 255);
+
+}
+#bywhich{
+	font-size:150%;
+	color:#DEDEDE;
+	font-family:Audiowide;
+}
+#contentin{
+	font-size:140%;
+	color:yellow;
+	font-family: Architects Daughter;
+	text-shadow:2px 1px 60px rgb(255, 255, 255);
+
+}
+#yearfrom{
+	font-size:150%;
+	color:#DEDEDE;
+	font-family:Audiowide;
+	float:right;
+	padding-right: 20px;
+	overflow: auto;
+}
+#navbar{
+	list-style-type:none; 
+	background-color:#25092E;
+	overflow: hidden;
+    padding:10;
+    border: 10px;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    margin:0;
+	float:left;
+	
+}
+
+li{
+	display: inline;
+	color:black;
+	float:left;
+}
+#aforli{
+	display:block;
+	color:#CDDC34;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: all .3s ease-in-out;
+	animation-name: normal11;
+	animation-duration: 3s;
+	text-shadow:3px 2px 70px rgb(255, 255, 255);
+	
+}
+#aforli:hover{
+	background-color:grey;
+}
+#aforli:active{
+	background-color:#B6A1EA;
+}
+#contact{
+	list-style-type:none; 
+	right:0;
+	margin:0;
+	position:fixed;
+}
+#elements{
+	display:block;
+
+}
+
+#navmobil{
+	list-style-type:none; 
+	background-color:#25092E;
+	overflow: hidden;
+    padding:0;
+    border: 0;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    margin:0;
+    float:left;
+}
+
+@media screen and (max-width: 600px){
+   	  #navbar ,
+    #navbar li {float: none;}
+   
+}
+#educationtitle{
+	font-size:170%;
+	color:orange;
+	font-family: Eater;
+	text-shadow:2px 1px 60px rgb(255, 0, 0);
+
+
+}
+#educationtitle:hover{
+		text-decoration:underline;
+}
+#course{
+	font-size:150%;
+	color:#A0DA8E;
+	font-family:Audiowide;
+}
+#stats{
+	font-size:180%;
+	color:yellow;
+	font-family: Euphoria Script;
+	text-shadow:2px 1px 60px rgb(255, 255, 255);
+
+}
+#yearfromto{
+	font-size:150%;
+	color:#A0DA8E;
+	font-family:Audiowide;
+	float:right;
+	padding-right: 20px;
+	overflow: auto;
+}
+#head2{
+	font-family: Faster One;
+	font-size: 250%;
+	color:red;
+	text-shadow:2px 1px 60px rgb(255, 208, 0);
+
+}
+#head3{
+	font-family: Faster One;
+	font-size: 250%;
+	color:red;
+	text-shadow:2px 1px 60px rgb(255, 208, 0);
+}
+#skillset{
+	color:yellow;
+	font-size: 150%;
+	font-family: Freckle Face;
+	text-shadow:2px 1px 25px rgb(255, 255, 255);
+
+}
+#head4{
+	font-family: Faster One;
+	font-size: 250%;
+	color:red;
+	text-shadow:2px 1px 60px rgb(255, 208, 0);
+
+}
+#interestset{
+	font-family: Caesar Dressing;
+	font-variant: small-caps;
+	text-shadow:2px 1px 25px rgb(255, 255, 255),2px 2px 60px rgb(255, 0, 0);
+}
+#head5{
+	font-family: Faster One;
+	font-size: 250%;
+	color:red;
+	text-shadow:2px 1px 20px rgb(255, 208, 0);
+
+}
+#linkstoCPid{
+	color:orange;
+}
+#linkstoCPid:hover{
+	text-decoration: underline;
+	color:red;
+	transition: all .6s ease-in-out;
+}
+#linkstoCPid #tooltiptext{
+	visibility:hidden;
+
+    width: 280px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+	z-index: 1;
+	left:35%;
+	opacity: 0;
+	transition: opacity 1.5s;					/* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+	
+}
+#linkstoCPid:hover #tooltiptext {
+	visibility: visible;
+	opacity:1;
+}
+#achievementsset{
+	color:yellow;
+	font-size: 150%;
+	font-family: Freckle Face;
+	text-shadow:1px 1px 60px rgb(255, 255, 255);
+}
+#mainimg{
+	float:right;
+	border-radius: 50%;
+	height: 500;
+	width:400;
+	
+}
+#bigimg{
+	float:right;
+	border-radius: 50%;
+	height: 1000;
+	width:800;
+}
+
+
+.dropdown_content{
+	display:none;
+	position:absolute;
+	min-width: 160px;
+	z-index: 1;
+}
+.dropdown:hover .dropdown_content{
+	display:block;	
+}
+#footer1{
+	display: flex;
+	color:rgb(43, 20, 43);
+
+	height:200px;
+	background-image: url("footer.jpg");
+	border-radius:5%;
+	
+}
+#allimg{
+	height: 50;
+	width: 50;
+	padding-left:20;
+}
+
+#giticon{
+	width: 80;
+	height: 50;
+	padding-left:10;
+}
+p.lineclose{
+	line-height: 50%;
+}
+#profi{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000;
+	height: 600;
+	transition: transform 1.5s;
+	animation-name: normal1111;
+	 animation-duration: 4s;
+	 animation-iteration-count: 1000;
+	 max-width: 100%;
+ 
+	
+}
+#profi:hover{
+	transform: rotate(360deg);
+}
+@keyframes normal1111{
+	0%   { box-shadow:3px 2px 70px rgb(255, 255, 255); }
+    25%  {box-shadow:3px 2px 70px rgb(255, 0, 0); }
+    50%  {box-shadow:3px 2px 70px rgb(43, 255, 0); }
+    75%  {box-shadow:3px 2px 70px rgb(0, 225, 255); }
+	90% { box-shadow:3px 2px 70px rgb(234, 0, 255);}
+	100%{box-shadow:3px 2px 70px rgb(255, 255, 255);}
+}
+
