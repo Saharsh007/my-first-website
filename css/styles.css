@@ -3,6 +3,7 @@ body
 {
 	background-image: url("../images/text_bg.png");
 	
+	
 
 }
 div{
@@ -37,16 +38,11 @@ color:yellow;
 	 animation-duration: 3s;
 
 }
-a:visited 
-{
-	color:white;
-	background-color:black;
-}
+
 a:hover
 {
-	color:blue;
-
-
+	color:rgb(224, 6, 6);
+	
 }
 
 #top1{
@@ -63,13 +59,15 @@ a:hover
 	transform: rotate(360deg);
 	text-shadow:3px 2px 70px rgb(55, 0, 252);
 }
-
+#nitksite:hover{
+	font-weight:bold;
+	color:rgb(224, 6, 6);
+}
 #normal1{
 
 	font-size: 250%;
 	text-shadow:2px 1px 40px white;
 	 font-family:Cookie;
-	 
 	 animation-name: normal111;
 	 animation-duration: 4s;
 	 animation-iteration-count: 1000;
@@ -237,8 +235,9 @@ li{
 }
 
 @media screen and (max-width: 600px){
-   	  #navbar ,
-    #navbar li {float: none;}
+   	  #navbar,
+	#navbar li {float: none;}
+	#prof_percentage
    
 }
 #educationtitle{
@@ -335,9 +334,29 @@ li{
 	left:35%;
 	opacity: 0;
 	transition: opacity 1.5s;					/* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
-	
 }
 #linkstoCPid:hover #tooltiptext {
+	visibility: visible;
+	opacity:1;
+}
+#topbutton #tooltiptext{
+	visibility:hidden;
+
+    width: 280px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+	z-index: 1;
+	left:35%;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+#topbutton:hover #tooltiptext {
 	visibility: visible;
 	opacity:1;
 }
@@ -357,8 +376,8 @@ li{
 #bigimg{
 	float:right;
 	border-radius: 50%;
-	height: 1000;
-	width:800;
+	height: 800;
+	width:640;
 }
 
 
@@ -367,6 +386,7 @@ li{
 	position:absolute;
 	min-width: 160px;
 	z-index: 1;
+	top:0;
 }
 .dropdown:hover .dropdown_content{
 	display:block;	
@@ -381,9 +401,11 @@ li{
 	
 }
 #allimg{
+
 	height: 50;
 	width: 50;
 	padding-left:20;
+
 }
 
 #giticon{
@@ -420,3 +442,74 @@ p.lineclose{
 	100%{box-shadow:3px 2px 70px rgb(255, 255, 255);}
 }
 
+.textinside{
+	font-family:Cookie;
+	color:yellow;
+	font-size: 50px;
+	position:absolute;
+	overflow:hidden;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-weight:bold;
+}
+.dropdown:hover .overlay {
+	bottom:10;
+	border-radius: 50%;
+	height: 500;
+	width:400;
+	
+	
+}
+.overlay {
+	position: absolute;
+	bottom: 100%;
+	right: 0;
+	background-image:url('images/text_bg.png');
+	overflow: hidden;
+	width: 100%;
+	height:0;
+	transition: .5s ease;
+	text-shadow: 1px 1px 60px white;
+  }
+  .fa {
+	padding: 20px;
+	font-size: 50px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 7px;
+	border-radius: 50%;
+  }
+  .fa:hover {
+
+	transition: .5s;
+	color:white;
+	padding:26px;
+}
+
+  .fa-facebook {
+	background-color: #3B5998;
+	color: white;
+  }
+  .fa-twitter {
+	background: #55ACEE;
+	color: white;
+  }
+.fa-linkedin {
+	background: #007bb5;
+	color: white;
+  }
+  .fa-instagram {
+	background:linear-gradient(225deg,blue 10%,rgb(226, 29, 200),rgb(240, 21, 21),rgb(255, 94, 0),yellow );
+	color: white;
+  }
+
+.fa-quora{
+	background:rgba(241, 0, 0, 0.884);
+	color:white;
+}
+.fa-github{
+	background:rgb(0, 0, 0);
+	color:rgb(255, 255, 255);
+}
